@@ -1,0 +1,169 @@
+<button id="theme-toggle" style="padding: 5px 10px; cursor: pointer; border-radius: 5px; background: var(--btn-bg); color: var(--text-color); border: 1px solid #ccc;">
+    切換模式Appearance Settings 🌙/☀️
+</button>
+<style>
+  :root {
+    /* 淺色模式變數 */
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --link-color: #0366d6;
+    --btn-bg: #f0f0f0;
+}
+
+[data-theme="dark"] {
+    /* 深色模式變數 */
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #58a6ff;
+    --btn-bg: #333333;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s; /* 讓切換時有平滑效果 */
+}
+
+a { color: var(--link-color); }
+</style>
+<script>
+  const toggleBtn = document.getElementById('theme-toggle');
+const currentTheme = localStorage.getItem('theme');
+
+// 檢查上次訪問的紀錄
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+}
+
+toggleBtn.addEventListener('click', () => {
+    let theme = document.documentElement.getAttribute('data-theme');
+    if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+});
+</script>
+<h1>方塊官方個人網站FK Website</h1>
+<head>
+  <title>FK WebSite</title>
+  <link rel="icon" href="favicon.ico?v=2" type="image/png" sizes="64x64">
+  <meta name="p:domain_verify" content="8f466cf6df9563a384cbeb8b691ade31"/>
+</head>
+<a href="javascript:var d=document,w=window,f='http://fanfou.com/share',l=d.location,e=encodeURIComponent,p='?u='+e(l.href)+'?t='+e(d.title)+'?d='+e(w.getSelection?w.getSelection().toString():d.getSelection?d.getSelection():d.selection.createRange().text)+'?s=bl';if(!w.open(f+'r'+p,'sharer','toolbar=0,status=0,width=600,height=400')){l.href=f+'.new'+p;}void(0)"><img src="http://static.fanfou.com/img/share_btn_2.gif" alt="分享到饭否" /></a>
+<p>感謝你的支持！我會繼續努力！thank u for ur support!</p>
+<p>不定時直播，全靠緣分 i often stream on Twitch</p>
+<ul>
+  <li>請遵守當地法律！！！</li>
+  <li>未經允許，請勿使用我的直播源直播</li>
+  <blockquote style="border-left: 4px solid #007bff; padding-left: 1rem; color: #6c757d;">
+    <p>允許使用直播源也禁止直播違法事件</p>
+  </blockquote>
+  <li>絕對不能在我的直播討論區和影片評論區<strong><em>罵人</em></strong></li>
+</ul>
+<p>哔哩哔哩播放量最高：<a href="https://www.bilibili.com/video/BV11o1uYREqs/">空客的那些首摔</a> BV11o1uYREqs 2024-10-27 21:29:49 🚫未经作者授权，禁止转载</p>
+<p>今天也是來當飛友了</p>
+<p>欸嘿！</p>
+<p><a href="https://search.bilibili.com/all?vt=09883058&keyword=%E7%A9%BA%E4%B8%AD%E5%AE%A2%E8%BD%A6&from_source=video_tag">#空中客车</a> <a href="https://search.bilibili.com/all?vt=10263229&keyword=%E9%A3%9E%E5%8F%8B&from_source=video_tag">#飞友</a></p>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/xgplayer/dist/index.min.css">
+    <style>
+        /* 让播放器居中显示 */
+        #video-container { margin: 50px auto; width: 800px; }
+    </style>
+</head>
+<body>
+
+    <div id="video-container">
+        <div id="mse-bilibili"></div>
+    </div>
+
+    <script src="https://unpkg.com/xgplayer/dist/index.min.js"></script>
+
+    <script>
+        var player = new Player({
+            id: 'mse-bilibili', // 对应上面的 id="mse"
+            url: '26491553030-1-192.mp4', // 这里换成你的视频地址
+            poster: 'bilibili_BV11o1uYREqs_cover.jpg', 
+            fluid: true, 
+            autoplay: false, // 是否自动播放
+            pip: true, 
+            volume: 0.6      // 默认音量
+        });
+    </script>
+</body>
+<p>以上由<a href="https://h5player.bytedance.com/">西瓜播放器</a>提供</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113379620492819&bvid=BV11o1uYREqs&cid=26491553030&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<p>以上由哔哩哔哩播放器提供</p>
+<p>西瓜视频播放量最高：<a href="https://m.ixigua.com/video/7421560296998699529">這是甚麽Bug</a> 2024-10-03 22:44发布 · 来自广东</p>
+<p>欸嘿!</p>
+<p><a href="https://so.ixigua.com/s/%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1">#和平精英</a> <a href="https://so.ixigua.com/s/%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1%E7%AA%81%E5%8F%98%E5%9B%A2%E7%AB%9E">#和平精英突变团竞</a> <a href="https://so.ixigua.com/s/Bug">#Bug</a></p>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/xgplayer/dist/index.min.css">
+    <style>
+        /* 让播放器居中显示 */
+        #video-container { margin: 50px auto; width: 800px; }
+    </style>
+</head>
+<body>
+
+    <div id="video-container">
+        <div id="mse-ixigua_video"></div>
+    </div>
+
+    <script src="https://unpkg.com/xgplayer/dist/index.min.js"></script>
+
+    <script>
+        var player = new Player({
+            id: 'mse-ixigua_video', // 对应上面的 id="mse"
+            url: 'ad35b718897c5a28b0e45addc9f85894.mp4', // 这里换成你的视频地址
+            poster: 'WeChatPhoto_20260117225632_362_36.jpg', 
+            fluid: true, 
+            autoplay: false, // 是否自动播放
+            pip: true, 
+            volume: 0.6      // 默认音量
+        });
+    </script>
+</body>
+<p>以上播放由<a href="https://h5player.bytedance.com/">西瓜播放器</a>提供</p>
+
+<p>我的社交賬戶（國外）：
+My social media: </p>
+<ul>
+  <li><a href="https://www.youtube.com/@Lk8.FK_Official">YouTube</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61579107515780">Facebook</a></li>
+  <li><a href="https://www.instagram.com/fk_official_915_">Instagram</a></li>
+  <li><a href="https://x.com/H_FangKuai1145">X(Twitter)</a></li>
+  <li><a href="https://discord.gg/EXR9CCXEwe">Discord</a></li>
+  <li><a href="https://twitch.tv/fangkuai9115">Twitch</a></li>
+  <li><a href="https://www.reddit.com/r/FangKuai_Official">Reddit</a></li>
+  <li><a href="https://www.tiktok.com/@fangkuai915tiktok">TikTok</a></li>
+  <li><a href="https://bsky.app/profile/fangkuai91.github.io">Bluesky</a></li>
+  <li><a href="https://open.spotify.com/user/31k4r7j4m5axkzkdlkjpbk3fhrxi">Spotify</a></li>
+  <li><a href="https://www.pinterest.com/fangkuaic">Pinterest</a></li>
+  <li><a href="https://www.snapchat.com/@fksc915">Snapchat</a></li>
+  <li><a href="https://vk.com/fangkuaivk">VKontakte</a></li>
+  <li><a href="https://www.tumblr.com/fk-official">Tumblr</a></li>
+  <li><a href="https://www.threads.com/@fk_official_915_">Threads</a></li>
+  <li><a href="https://ok.ru/profile/910269648385">Odnoklassniki</a></li>
+  <a rel="me" href="https://mastodon.social/@Lk8_F_O">Mastodon</a>
+</ul>
+<p>我的社交賬戶（國內）：
+my social media(China): </p>
+<ul>
+  <li><a href="https://livescope.tv/room/FK915Live">LiveScope</a></li>
+  <li><a href="https://www.bilibili.com/space/3461580318575587">嗶哩嗶哩（B站）Bilibili</a></li>
+  <li><a href="https://ixigua.com/user/4328145720717719">西瓜视频Xigua Video</a></li>
+  <li><a href="https://www.xiaohongshu.com/user/profile/646f54370000000012037411">小紅書RedNote</a></li>
+  <li><a href="https://weibo.com/u/7742164781">新浪微博Sina Weibo</a></li>
+  <li><a href="https://v.douyin.com/v5uKRWh48s4/">抖音Douyin</a></li>
+  <li><a href="https://v.kuaishou.com/7erZoszY">快手Kuaishou</a></li>
+  <li><a href="https://www.youku.com/ku/profile/index/?uid=UMTYzNjU4NDAyODQ=">優酷Youku</a></li>
+  <li><a href="https://y.music.163.com/m/user?id=4010075606">網易雲音樂163 Music</a></li>
+  <li><a href="https://acfun.cn/u/75624010">AcFun</a></li>
+  <li><a href="https://kook.vip/qcpx1M">KOOK</a></li>
+</ul>
