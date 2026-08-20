@@ -48,7 +48,7 @@ Q&A
 <img border="0" src="/图片文件夹/touxiang.html/LaoShazi_114514.jpeg" alt="LaoShazi_114514" width="130" height="130"></a>  
 
 ### 老王
-<a href="https://www.xiaohongshu.com/user/profile/5d332b7200000000160212c1">
+<a href="https://space.bilibili.com/3546942007151433">
 <img border="0" src="/图片文件夹/touxiang.html/laowang.jpg" alt="LaoWang" width="130" height="130"></a>  
 
 结语
