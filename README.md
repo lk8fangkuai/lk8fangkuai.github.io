@@ -18,12 +18,15 @@ Q&A
 > 啊方块方块，这个站有啥用啊？？？！
 
 0.<span title="其实就是闲着没事写的代码（恭喜你意外找到了彩蛋🔑）">emmm</span>；  
+> 冷知识：<span title="你知道的太多了……">~~其实我根本不会HTML~~</span>
+  
 1.介绍我自己；  
 2.更方便的找到我的其他SNS社媒；  
 3.把视频同步至此（但是我不会做播放器，我会研究的（目前用的是[西瓜视频官方制作的开源播放器](https://github.com/bytedance/xgplayer)，现在使用这个播放器播放的视频以后也懒得改了还是用这个播放器  
 
 i神秘M团队的朋友们
 =
+###### **注：图片尺寸我懒得改了，改起来还是麻烦*
 ### Name  
 [![Name](/图片文件夹/touxiang.html/namenew.jpg)](https://space.bilibili.com/3546896230517082)  
 ### 阿草DF  
@@ -31,4 +34,8 @@ i神秘M团队的朋友们
 ### 文本  
 [![文本](/图片文件夹/touxiang.html/text.jpg)](https://space.bilibili.com/3632314407979736)
 ### 雪人  
-[![雪人](/图片文件夹/touxiang.html/snowman.jpg)](https://space.bilibili.com/3494364718303378)
+[![雪人](/图片文件夹/touxiang.html/snowman.jpg)](https://space.bilibili.com/3494364718303378)  
+
+结语
+=
+赶紧进入网站看看吧！
